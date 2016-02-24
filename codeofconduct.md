@@ -25,10 +25,10 @@ warning the offender or expulsion from the community. If you are being
 harassed, notice that someone else is being harassed, or have any concerns,
 please contact an organizer immediately.
 
-### **Name of Nodeschool Chapter**
+### **Foyle Valley**
 
-* Organizers: **Names of organizers plus Twitter handles to get in touch**
-* Meetup URL: **URL for meetup, FB group, etc.**
+* Organizers: @sjmerrigan @kieranheg @CahalKearney @gangleri @diarmaidm**
+* Meetup URL: ** TBC **
 
 **If you have questions or feedback about this Code of Conduct please contact
 one of the organizers.**
