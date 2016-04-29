@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <!--<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">-->
+    <script src='https://js.tito.io/v1' async></script>
 
     <nav class="navbar navbar-default navbar-inverse">
       <div class="container-fluid">
@@ -40,23 +40,34 @@
           </a>Welcome to Foyle Valley Nodeschool
         </h3>
 
-        <div class="text-center">
+        <div class="text-center" hidden>
           <img data-aria-label-part="" src="http://i.giphy.com/26AHHWiCfHVk34vC0.gif" alt="Thank you">
         </div>
         <br>
-        <div>Thank you everyone who attended our inaugural
-          <a href="https://twitter.com/foylenodeschool" class="twitter-follow-button" data-show-count="false">@foylenodeschool</a>
+        <div>
+          We are having our next
+          <a href="https://twitter.com/foylenodeschool" class="twitter-button" data-show-count="false">@foylenodeschool</a>
+          <br>on Wednesday 11th May, from 6:00pm in the
+          <a id="allstate-office" class="anchor" href="https://www.google.ie/maps/@55.0177372,-7.3392104,3a,75y,17.32h,79.08t/data=!3m6!1e1!3m4!1sfZaFcxsd1biDklCii9AZ7Q!2e0!7i13312!8i6656" aria-hidden="true" target="_blank">Allstate Northland Office</a>
           <br>
-          We have provided some info that may assist <a href="#helps" class="anchor">below:</a>
-          <!--<a href="https://twitter.com/search?q=%23nodeschool" target="_blank">#nodeschool</a>-->
-          <!--<a href="https://twitter.com/foylenodeschool" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @foylenodeschool</a>-->
+        </div>
+
+        <hr>
+
+        <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1">
+        <tito-widget event="foyle-nodeschool/may-nodeschool"></tito-widget>
+
+        <hr>
+
+        <div>
+        Please bring a laptop (or some means of installing/running nodejs)
         </div>
 
         <hr>
 
         <div class="container features">
           <div class="text-center">
-            <h3>Thank you to our Sponsors for the use of the facilities and sponsoring pizza.</h3>
+            <h3>Thank you again to our Sponsors for the use of the facilities and sponsoring food.</h3>
           </div>
           <div class="row">
             <div class="col-md-6 text-center">
@@ -75,11 +86,6 @@
         </div>
 
         <hr>
-
-<!--<a id="unacceptable-uses-of-the-github-logo" class="anchor" href="#unacceptable-uses-of-the-github-logo" aria-hidden="true">
-  <span class="octicon octicon-link">
-    </span>
-    </a>-->
 
         <div class="text-center">
           <a id="helps" class="anchor text-center" href="#helps"></a>
@@ -135,23 +141,6 @@
           </ul>
         </div>
 
-        <hr>
-
-        <!--<a id="allstate-office" class="anchor" href="https://www.google.ie/maps/@55.0177372,-7.3392104,3a,75y,17.32h,79.08t/data=!3m6!1e1!3m4!1sfZaFcxsd1biDklCii9AZ7Q!2e0!7i13312!8i6656" aria-hidden="true">Allstate Office</a>
-
-        <h3 hidden='true'>
-        April event.
-        </h3 class=h3-alert>
-
-        <div hidden='true'>
-        Please bring a laptop (or some means of installing/running nodejs)
-        </div>-->
-
-        <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1">
-        <tito-widget event="foyle-nodeschool/foyle-nodeschool"></tito-widget>
-
-        <hr>
-
         <h3>For Everyone:</h3>
         <p>We think that learning to program is great and
           everyone should feel welcome at our event. This includes our
@@ -205,7 +194,6 @@
   }
   (document, 'script', 'twitter-wjs');
   </script>
-  <script src='https://js.tito.io/v1' async></script>
 
   </body>
 </html>
